@@ -129,7 +129,7 @@ table {
 }
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html,
@@ -152,25 +152,36 @@ nav {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 3%;
+    padding: 3%;
 }
 
+
 .section-a {
-    border: 1px solid purple;
     display: flex;
+    height: 50vh;
 }
 
 .section-b {
-    border: 1px solid purple;
     display: flex;
+    height: 50vh;
 }
-
+.btn{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+    padding: 2% 3%;
+    text-decoration: none;
+    width: 7rem;
+    margin-top: 10%;
+}
 .card {
 	/* Add shadows to create the "card" effect */
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	transition: 0.3s;
-	width: 50%;
-	border: 1px solid black;
+    width: 60%;
+    border: 1px solid black;
+    margin: 1%;
+    border-bottom: 1px dotted black;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -178,9 +189,14 @@ nav {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+
 .card-container{
-    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 5%;
 }
+
 
 .main-image {
 	margin-bottom: 3%;
