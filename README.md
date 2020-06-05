@@ -1,6 +1,5 @@
 # Site can be found here
-https://app.netlify.com/sites/vigilant-heyrovsky-1f6a5c/overview
-
+https://vigilant-heyrovsky-1f6a5c.netlify.app/
 
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
